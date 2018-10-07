@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 3, 2018 1:14:03 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="com.direct.oto.entity">
+	<class name="Addmission" table="addmission">
+		<id name="addmissionNum" column="addmission_no">
+			<generator class="increment" />
+		</id>
+		<property name="dateOfAddmission" column="date_addmission" />
+		<property name="candidateName" column="candidate_nm" />
+		<property name="degree" column="degree" />
+		<property name="college" column="college" />
+		<one-to-one name="scholarShip" cascade="none" />
+	</class>
+</hibernate-mapping>

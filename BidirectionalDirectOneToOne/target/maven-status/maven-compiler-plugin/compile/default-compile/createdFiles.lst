@@ -1,0 +1,5 @@
+com\direct\oto\helper\SessionFactoryFactory.class
+com\direct\oto\entity\Addmission.class
+com\direct\oto\entity\ScholarShip.class
+com\direct\oto\helper\SessionManager.class
+com\direct\oto\test\Test.class
